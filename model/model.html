@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Model</title>
+		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+		<!--<meta http-equiv='refresh' content='5'>-->
+		<!--<link rel="stylesheet" type="text/css" href="model.css">-->
+		<link rel="stylesheet/less" type="text/css" href="model.css">
+		<script type="text/javascript" src='less1.3min.js'></script>
+		<script type="text/javascript" src='jq1.7min.js'></script>
+		<script type="text/javascript" src='model.js'></script>
+		<script type="text/javascript" src='thedialog.js'></script>
+		<script type="text/javascript" src='thepopup.js'></script>
+	</head>
+	<body>
+		<!--TOP-->
+		<div id='topdiv' class='rotdiv'>
+			<div id='tcdiv' class='rcdiv'>
+				<div id='titlediv'>前端样式</div>
+			</div>
+			<div id='toldiv'>
+				<a href='http://www.eiege.com' class='abs'>发布帖子</a>
+				<a href='http://www.eiege.com' class='abs'>标签浏览</a>
+				<a href='http://www.eiege.com' class='abs'>分类浏览</a>
+				<a href='http://www.eiege.com' class='abs'>按钮abcd</a>
+			</div>
+		</div>
+		<!--CENTER-->
+		<div id='cendiv' class='rotdiv'>
+			<div id='ccdiv' class='rcdiv'>
+				<div id='cldiv'><!--CENTER_LEFT-->
+					<div class='exn'>
+						这里是CLDIV，下面的就是主要的内容了，其实下面就是样式演示。
+					</div>
+					<fieldset class='fteam'>
+						<legend>页面元素分组演示</legend>
+						这里演示的是页面元素分组。使用fieldset用来进行页面元素的分组。
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>信息组演示</legend>
+						<div class='exn'>这里演示的是说明信息组，用来说明页面的基本信息等(dl版本和table版本)</div>
+						<dl class='dlteam'>
+							<dt>发布时间：</dt>
+							<dd>2012-8-16 16:03:52</dd>
+							<dt>作者：</dt>
+							<dd>eiege.com@gmail.com</dd>
+							<dt>关联的标签：</dt>
+							<dd>Eiege.com,快速发帖,内容演示</dd>
+						</dl>
+						<table class='tabinf'>
+							<tr>
+								<th>发布时间：</th>
+								<td>2012-8-16 16:34:56</td>
+							</tr>
+							<tr>
+								<th>作者：</th>
+								<td>eiege.com@gmail.com</td>
+							</tr>
+							<tr>
+								<th>关联标签：</th>
+								<td>Eiege.com,快速发帖,样式演示</td>
+							</tr>
+						</table>
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>提示和注释等消息样式演示</legend>
+						<div class='exn'>这个是普通提示，类：exn</div>
+						<div class='exw'>这个是警示框，类：exw</div>
+						<div class='exs'>这个是蓝色调的说明框，类：exs</div>
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>按钮样式</legend>
+						<div class='exs'>这里是用a标签模仿按钮的样式</div>
+						<a href="http://www.eiege.com" class='abs'>普通的按钮</a>
+						<a href="http://www.eiege.com" class='abs2'>明显按钮</a>
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>列表样式</legend>
+						<div class='exs'>主列表样式如下</div>
+						<table class='nlist'>
+							<tr>
+								<td>
+									<a href="http://www.eiege.com">Eiege.com的首页链接</a>
+									<div>tgoding-20分钟前|12(阅)/6(回)</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="http://www.eiege.com">长标题效果长标题效果长标题效果长标题效果长标题效果长标题效果长标题效果长标题效果</a>
+									<div>tgoding-20分钟前|12(阅)/6(回)</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="http://www.eiege.com">Eiege.com的首页链接</a>
+									<div>tgoding-20分钟前|12(阅)/6(回)</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="http://www.eiege.com">Eiege.com的首页链接</a>
+									<div>tgoding-20分钟前|12(阅)/6(回)</div>
+								</td>
+							</tr>
+						</table>
+						<div class='exs'>附加列表A</div>
+						<table class='nlist2'>
+							<tr>
+								<td><a href="http://www.eiege.com">附加列表A样式</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.eiege.com">附加列表A样式附加列表样式附加列表样式附加列表样式附加列表样式附加列表样式附加列表样式附加列表样式</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.eiege.com">附加列表A样式</a></td>
+							</tr>
+							<tr>
+								<td><a href="http://www.eiege.com">附加列表A样式</a></td>
+							</tr>
+						</table>
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>标签样式</legend>
+						<a href="" class='taga'>标签样式</a>
+						<a href="" class='taga'>短</a>
+						<a href="" class='taga'>一般正常标签</a>
+						<a href="" class='taga'>比较长的标签的样式展示比较长的标签演示</a>
+						<a href="" class='taga'>abc</a>
+						<a href="" class='taga'>132</a>
+						<a href="" class='taga'>在换行处出现的长标签样式</a>
+						<a href="" class='taga'>混排123</a>
+						<a href="" class='taga'>混排abc</a>
+						<a href="" class='taga'>有用</a>
+						<a href="" class='taga'>谣言</a>
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>基本表单元素的样式</legend>
+						<div class='exs'>输入框</div>
+						基本输入框：<input type='text' value='' />
+						密码框：<input type='password' value=''/>
+						<div class='exs'>下拉框</div>
+						<select name="cars">
+							<option value="volvo">第一个值</option>
+							<option value="saab">www.eiege.com</option>
+							<option value="fiat" selected="selected">默认值</option>
+							<option value="audi">测试123a</option>
+						</select>
+						<div class='exs'>单选和复选</div>
+						<label><input type='radio' name='website' value='baidu.com' title='baidu' />
+						baidu.com</label>
+						<label><input type='radio' name='website' checked='checked' value='eiege.com'title='eiege' />
+						eiege.com</label>
+						<label><input type='radio' name='website' value='google.com' title='google' />google.com</label>
+						<hr />
+						<label><input type='checkbox' name='baidu' value='baidu' title='baidu' />baidu</label>
+						<label><input type='checkbox' name='eiege' value='eiege' checked='checked' title='eiege' />eiege</label>
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>弹出窗口与下拉菜单</legend>
+						<div class='exs'>弹出窗口、弹出层样式</div>
+						<a href='#' onclick='return false' class='abs' id='dialog1'>弹出窗口</a>
+						<div class='exs'>菜单</div>
+						<a href='#testpopup1' onclick='return false' class='pop_in' epg='ul'>弹出菜单演示ul <i class='icon-th-list'></i></a>
+						<a href='#testpopup1' onclick='return false' class='pop_in' epg='ur'>弹出菜单演示ur <i class='icon-th-list'></i></a>
+						<a href='#testpopup1' onclick='return false' class='pop_in' epg='dl'>弹出菜单演示dl <i class='icon-th-list'></i></a>
+						<a href='#testpopup1' onclick='return false' class='pop_in' epg='dr'>弹出菜单演示dr <i class='icon-th-list'></i></a>
+						<a href='#testpopup1' onclick='return false' class='pop_in' epg='lu'>弹出菜单演示lu <i class='icon-th-list'></i></a>
+						<a href='#testpopup1' onclick='return false' class='pop_in' epg='ld'>弹出菜单演示ld <i class='icon-th-list'></i></a>
+						<a href='#testpopup2' onclick='return false' class='pop_in' epg='ru'>弹出菜单演示ru <i class='icon-th-list'></i></a>
+						<a href='#testpopup1' onclick='return false' class='pop_in' epg='rd'>弹出菜单演示rd <i class='icon-th-list'></i></a>
+						<a href='#testpopup1' onclick='return false' class='pop_in'>弹出菜单演示默认 <i class='icon-th-list'></i></a>
+						<div class='clear_b'></div>
+						<ul class='eie_popup' id='testpopup1'>
+							<li><a href="http://www.eiege.com">Eiege.com is very good website</a></li>
+							<li><a href="http://www.google.com">Google.com</a></li>
+							<li class='divider'></li>
+							<li><a href="http://www.baidu.com">Baidu.com</a></li>
+							<li><a href="http://www.yahoo.com">Yahoo.com</a></li>
+						</ul>
+						<ul class='eie_popup' id='testpopup2'>
+							<li><a href="http://www.eiege.com">Eiege.com 是一个好网站</a></li>
+							<li><a href="http://www.google.com">谷歌</a></li>
+							<li class='divider'>&nbsp;</li>
+							<li><a href="http://www.baidu.com">百度</a></li>
+							<li><a href="http://www.yahoo.com">雅虎</a></li>
+						</ul>
+						<br />
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>引用样式展示</legend>
+						<div class='eie_txt'>
+						这是一个文本块，使用类class=‘eie_txt’来定义样式，通过blockquote来定义引用的部分。<br />
+						引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，
+						引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，
+						<blockquote>
+							这里是引用的部分，这里是引用的部分，这里是引用的部分，这里是引用的部分，这里是引用的部分，这里是引用的部分，这里是引用的部分，这里是引用的部分，这里是引用的部分，这里是引用的部分，
+						</blockquote>
+						引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，
+						引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，
+						引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，
+						引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，引用样式展示部分，
+						</div>
+					</fieldset>
+					<fieldset class='fteam'>
+						<legend>编辑器</legend>
+						<div class='exn'>普通的文章发布编辑器</div>
+					</fieldset>
+				</div>
+				<div id='crdiv'><!--CENTER_RIGHT-->
+					<div class='exn'>
+						这里是CRDIV，这一栏里是主内容辅助
+					</div>
+				</div>
+				<div class='clear_b'></div>
+			</div>
+		</div>
+		<!--BOTTOM-->
+		<div id='botdiv' class='rotdiv'>
+			<div id='bcdiv' class='rcdiv'>
+				<div class='exn'>
+					这里是BOTDIV
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

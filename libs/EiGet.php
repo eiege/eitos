@@ -35,7 +35,17 @@ class EiGet extends EiStruct{
         
         $code=curl_error($ch) and parent::setError($code);
         
-        return $ret;
+        return $ret;        
+    }
+    
+    /**
+     * 按照百分比获取元素
+     * @param array $param array(10=>'a',20=>'b',30=>'c',percentage_cumulation=>'one');按照百分比累加编制的数组，比如10=>a,100=>b,这意思是10%的a和90%的b。
+     * @return array array(percentage=>'this one'); 获得的东西
+     */
+    public function getOneByPercentage($param){
+        is_array($param) or parent::setError(10);
+        
         
     }
 }
